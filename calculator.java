@@ -5,10 +5,10 @@ public class calculator {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter first number: ");
         double a = s.nextDouble();
-        System.out.print("Enter operator (+, -, *, /): ");
-        char op = s.next().charAt(0);
         System.out.print("Enter second number: ");
         double b = s.nextDouble();
+        System.out.print("Enter operator (+, -, *, /): ");
+        char op = s.next().charAt(0);
         double r = 0;
 
         switch (op) {
